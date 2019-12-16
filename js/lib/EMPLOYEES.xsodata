@@ -1,0 +1,3 @@
+service {
+	"CIEHANA00.db::EMPLOYEES" as "EMPLOYEES" keys("ACCOUNT");
+}

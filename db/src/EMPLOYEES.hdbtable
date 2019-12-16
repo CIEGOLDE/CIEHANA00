@@ -1,0 +1,11 @@
+COLUMN TABLE "CIEHANA00.db::EMPLOYEES" (
+	"ACCOUNT" NVARCHAR(30) Comment '账号',
+	"FULLNAME" NVARCHAR(50) Comment '姓名',
+	"JOB" NVARCHAR(30) Comment '职位',
+	"COMPANYCODE" NVARCHAR(4) Comment '公司',
+	"DEPARTMENT" NVARCHAR(30) Comment '部门',
+	"SUPERIORAC"NVARCHAR(30) Comment '直接上级账号',
+	"LEADERAC"NVARCHAR(30) Comment '部门领导账号',
+	"EMAIL" NVARCHAR(50) Comment '电子邮箱',
+	Primary Key ("ACCOUNT") )
+	Comment 'EMPLOYEES单据表'

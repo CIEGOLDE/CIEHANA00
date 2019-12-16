@@ -1,0 +1,10 @@
+/*@@layout{"layoutInfo":{"x":-115,"y":-56.5}}*/
+context ZZVPDA {
+
+    /*@@layout{"layoutInfo":{"x":-163,"y":-93.5}}*/
+    entity ZPLBCODE {
+        key ZPLTYPE   : String(10);
+            ZPLSCRIPT : String(3200);
+            REMARK    : String(20);
+    };
+};

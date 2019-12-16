@@ -1,0 +1,3 @@
+service {
+	"ZZVPDA.ZPLBCODE" as "zplBarcode" keys ("ZPLTYPE");
+}
